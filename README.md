@@ -1,7 +1,9 @@
 # aud_etiology_classifier
 
 
-Script classifying unknown etiologies in audiology dataset using Naive Bayes
+Script classifying unknown etiologies in audiology dataset (below) using Naive Bayes model.
+Trains on known etiologies, then implemented on data from unknown etiologies.
+Calculates feature importance and plots.
 
 
 Uses Audiology (Standardized) Data Set available from:
