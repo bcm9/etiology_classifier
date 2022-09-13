@@ -2,6 +2,8 @@
 
 
 Script classifying unknown etiologies in audiology dataset (below) using Naive Bayes model.
+
+
 Trains on known etiologies, then implemented on data from unknown etiologies.
 Calculates feature importance and plots.
 
