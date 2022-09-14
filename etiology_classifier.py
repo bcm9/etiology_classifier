@@ -93,10 +93,11 @@ features=np.arange(0,Xt.shape[1])
 #     print("(%s) (%f)" % (features[importance_idx[i]], importance[importance_idx[i]]))
 
 rankimportance=importance[importance_idx]
-featureimportance=features[importance_idx]    
+featureimportance=features[importance_idx]
+featureimportance_std=imps.importances_std[importance_idx]  
 # Plot nfplot most important features
 nfplot=15
-plt.bar(np.arange(0,nfplot),rankimportance[0:nfplot])
+plt.bar(np.arange(0,nfplot),rankimportance[0:nfplot],yerr=featureimportance_std[0:nfplot])
 plt.xticks(np.arange(0,nfplot),featureimportance[0:nfplot],fontsize=11)
 plt.xlim([-1,nfplot])
 plt.xlabel("Feature #", fontsize=14)   
