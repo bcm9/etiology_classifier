@@ -11,5 +11,5 @@ https://archive.ics.uci.edu/ml/datasets/Audiology+%28Standardized%29
 
 ![](plots/Figure_1.png) 
 
-![](plots/Figure_2.png)
+![](plots/Figure_3.png)
 
