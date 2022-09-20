@@ -1,4 +1,4 @@
-# aud_etiology_classifier
+# etiology_classifier
 
 
 Script classifies unknown etiologies in audiology datasets using Naive Bayes models.
